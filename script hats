@@ -31,7 +31,154 @@ Enter.MouseButton1Down:connect(function()
 	if Key.Text == "lol"  then
 		reminder.Text = "rightKey"
 		Frame:Destroy()\
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DOTONTOP/scripts-hat/main/script%20hats", true))()
+		-- script made by dot#1020
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local script1 = Instance.new("TextButton")
+local script2 = Instance.new("TextButton")
+local script3 = Instance.new("TextButton")
+local script4 = Instance.new("TextButton")
+local script5 = Instance.new("TextButton")
+local script6 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local KorbloxLeftLeg = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+main.Position = UDim2.new(0.0521512367, 0, 0.0819398016, 0)
+main.Size = UDim2.new(0, 707, 0, 483)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel.Size = UDim2.new(0, 707, 0, 62)
+TextLabel.Font = Enum.Font.Highway
+TextLabel.Text = "scripts hat | Gui made by dot#1020"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+script1.Name = "script 1"
+script1.Parent = main
+script1.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script1.Position = UDim2.new(0, 0, 0.184265018, 0)
+script1.Size = UDim2.new(0, 224, 0, 74)
+script1.Font = Enum.Font.SourceSansBold
+script1.Text = "Valkyrie Helm"
+script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+script1.TextScaled = true
+script1.TextSize = 14.000
+script1.TextWrapped = true
+script1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Normal%20Blue%20Valk", true))()
+end)
+
+script2.Name = "script 2"
+script2.Parent = main
+script2.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script2.Position = UDim2.new(0.683168292, 0, 0.184265018, 0)
+script2.Size = UDim2.new(0, 224, 0, 74)
+script2.Font = Enum.Font.SourceSansBold
+script2.Text = "Ice Valkyrie"
+script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+script2.TextScaled = true
+script2.TextSize = 14.000
+script2.TextWrapped = true
+script2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Ice%20Valk", true))()
+end)
+script3.Name = "script 3"
+script3.Parent = main
+script3.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script3.Position = UDim2.new(0, 0, 0.478260875, 0)
+script3.Size = UDim2.new(0, 224, 0, 74)
+script3.Font = Enum.Font.SourceSansBold
+script3.Text = "Frozen Horns "
+script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+script3.TextScaled = true
+script3.TextSize = 14.000
+script3.TextWrapped = true
+script3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Blue%20Horns", true))()
+end)
+script4.Name = "script 4"
+script4.Parent = main
+script4.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script4.Position = UDim2.new(0.683168292, 0, 0.478260875, 0)
+script4.Size = UDim2.new(0, 224, 0, 74)
+script4.Font = Enum.Font.SourceSansBold
+script4.Text = "Fiery Horns "
+script4.TextColor3 = Color3.fromRGB(0, 0, 0)
+script4.TextScaled = true
+script4.TextSize = 14.000
+script4.TextWrapped = true
+script4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Red%20Fiery%20Horns", true))()
+end)
+script5.Name = "script 5"
+script5.Parent = main
+script5.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script5.Position = UDim2.new(0, 0, 0.761904776, 0)
+script5.Size = UDim2.new(0, 224, 0, 74)
+script5.Font = Enum.Font.SourceSansBold
+script5.Text = "korblox"
+script5.TextColor3 = Color3.fromRGB(0, 0, 0)
+script5.TextScaled = true
+script5.TextSize = 14.000
+script5.TextWrapped = true
+script5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/both%20korblox%20legs", true))() 
+end)
+script6.Name = "script 6"
+script6.Parent = main
+script6.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
+script6.Position = UDim2.new(0.683168292, 0, 0.761904776, 0)
+script6.Size = UDim2.new(0, 224, 0, 74)
+script6.Font = Enum.Font.SourceSansBold
+script6.Text = "headless"
+script6.TextColor3 = Color3.fromRGB(0, 0, 0)
+script6.TextScaled = true
+script6.TextSize = 14.000
+script6.TextWrapped = true
+script6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/headless", true))() 
+end)
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(17, 52, 255)
+TextButton.Position = UDim2.new(0.199434221, 0, 0.915113866, 0)
+TextButton.Size = UDim2.new(0, 83, 0, 34)
+TextButton.Font = Enum.Font.RobotoCondensed
+TextButton.Text = "Korblox Right Leg"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20right%20leg", true))() 
+end)
+KorbloxLeftLeg.Name = "Korblox Left Leg\\n"
+KorbloxLeftLeg.Parent = main
+KorbloxLeftLeg.BackgroundColor3 = Color3.fromRGB(11, 47, 255)
+KorbloxLeftLeg.Position = UDim2.new(0, 0, 0.915113866, 0)
+KorbloxLeftLeg.Size = UDim2.new(0, 78, 0, 34)
+KorbloxLeftLeg.Font = Enum.Font.SourceSansBold
+KorbloxLeftLeg.Text = "Korblox Left Leg"
+KorbloxLeftLeg.TextColor3 = Color3.fromRGB(0, 0, 0)
+KorbloxLeftLeg.TextScaled = true
+KorbloxLeftLeg.TextSize = 14.000
+KorbloxLeftLeg.TextWrapped = true
+KorbloxLeftLeg.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20left%20leg", true))() 
+end)
 	else
 		local kickhandler = game.Player.localplayer
 		kickhandler.kick('wrong key ! text sure key!')
