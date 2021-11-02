@@ -1,37 +1,4 @@
-
-
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local Enter = Instance.new("TextButton")
-local Key = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-
---Properties:
-
-ScreenGui.Parent = game.Workspace
-
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-Frame.Position = UDim2.new(0.269882679, 0, 0.301003367, 0)
-Frame.Size = UDim2.new(0, 405, 0, 250)
-
-Enter.Name = "Enter"
-Enter.Parent = Frame
-Enter.BackgroundColor3 = Color3.fromRGB(0, 0, 118)
-Enter.Position = UDim2.new(0.251851857, 0, 0.684000015, 0)
-Enter.Size = UDim2.new(0, 177, 0, 39)
-Enter.Font = Enum.Font.Roboto
-Enter.Text = "Enter"
-Enter.TextColor3 = Color3.fromRGB(0, 0, 0)
-Enter.TextScaled = true
-Enter.TextSize = 14.000
-Enter.TextWrapped = true
-Enter.MouseButton1Down:connect(function()
-	if Key.Text == "lol"  then
-		reminder.Text = "rightKey"
-		Frame:Destroy()\
-		-- script made by dot#1020
+-- script made by dot#1020
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -179,31 +146,3 @@ KorbloxLeftLeg.TextWrapped = true
 KorbloxLeftLeg.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20left%20leg", true))() 
 end)
-	else
-		local kickhandler = game.Player.localplayer
-		kickhandler.kick('wrong key ! text sure key!')
-		warn('wrong key !')
-	end
-end)
-Key.Name = "Key"
-Key.Parent = Frame
-Key.BackgroundColor3 = Color3.fromRGB(0, 0, 120)
-Key.Position = UDim2.new(0.20246914, 0, 0.219999999, 0)
-Key.Size = UDim2.new(0, 216, 0, 46)
-Key.Font = Enum.Font.Roboto
-Key.Text = "key"
-Key.TextColor3 = Color3.fromRGB(0, 0, 0)
-Key.TextScaled = true
-Key.TextSize = 14.000
-Key.TextWrapped = true
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel.Position = UDim2.new(0.237037033, 0, 0.448000014, 0)
-TextLabel.Size = UDim2.new(0, 189, 0, 41)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = ""
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 14.000
-
-UICorner.Parent = Frame
