@@ -43,7 +43,7 @@ Enter.TextWrapped = true
 Enter.MouseButton1Click:connect(function()
 	if enterkey.Text == "dotontop" then
 		print("correct")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DOTONTOP/scripts-hat/main/script%20hats"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DOTONTOP/hat-script-1/main/hat%20script%201"))()
 	else
 		local kickhandler = game.Players.LocalPlayer
 		kickhandler:kick('wrong key ! check key or join discord when u executed again')
